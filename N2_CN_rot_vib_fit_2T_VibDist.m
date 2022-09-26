@@ -4929,11 +4929,10 @@ function [ invM ] = inverta( M )
 % [ invM ] = inverta( M )
 %
 % usar no lugar da função inv
-
-% (c) Zwinglio Guimaraes-Filho (2001-2002)
-
 % para verificar se há elementos na diagonal principal menores do que a
 % precisão numérica (eps):
+%
+% This piece of code was d by prof. Zwinglio Guimaraes-Filho (2001-2002)
 %
 if min( sqrt( diag(M) ) ) < eps
 M
