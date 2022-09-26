@@ -10,7 +10,7 @@ For more information on the physical motivation of this problem, wait for the pa
 
 ## 2) Description of Matlab code N2_CN_rot_vib_fit_2T_VibDist.m
 
-This code fits any given molecular spectra in the wavelength range 376 nm to 393 nm containing the following molecular system: CN violet, N2+ first negative system and N2 second positive system. The molecular state distribution model is specific for the case reported in the paper  "Temperature Measurement by Optical Emission Spectroscopy of the Plasma Jet Produced by a High Velociy Plasma Spray (HVPS)", where the vibrational states of CN were overpoplated. 
+This code fits any given molecular spectra in the wavelength range 376 nm to 393 nm containing the following molecular system: CN violet, N2+ first negative system and N2 second positive system. The molecular state distribution model is specific for the case reported in the paper  "Temperature Measurement by Optical Emission Spectroscopy of the Plasma Jet Produced by a High Velociy Plasma Spray (HVPS)", where the vibrational states of CN were overpopulated. 
 
 The input files absoluto.txt and resposta.txt are calibrating data related to the spectrometer response function. The file containing the experimental spectrum is named medida15mm.txt. It contains the data corresponging to one of the conditions analysed in the above mentioned paper. 
 
